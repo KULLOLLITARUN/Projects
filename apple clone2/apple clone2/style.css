@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    background-color: #181818;
+    border-radius: 10px;
+}
+ul{
+    
+    width: 100%;
+    height: inherit;
+    list-style: none;
+    color:#969595 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* display: none; */
+}
+li a{
+    text-decoration: none;
+    color: #969595;
+}
+li{
+    
+    padding: 16px;
+    display: none;
+}
+/* .items{
+    display: none;
+} */
+@media  screen and (max-width:426px) {
+    #apple{
+        display: block;
+        margin-right:160px ;
+    }
+    #search{
+        display: block;
+        margin-left: 8px;
+        padding-left:0 ;
+    }  
+}
+@media (min-width:427px) and (max-width: 768px) {
+    #apple{
+        display: block; 
+        margin-right: 480px;
+    }
+    #search{
+        display: block;
+    }
+}
+@media (min-width:769px) and (max-width: 1440px) {
+    li{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+}
+
+@media (min-width:1441px) and (max-width: 2560px) {
+    li{
+        display: block;
+        /* font-size: 20px; */
+    }
+    
+    .menu{
+        display: none;
+    }
+}
+
+.offer_txt{
+    width: 100%;
+    /* height: inherit; */
+    background-color: #1d1d1f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 13px;
+}
+.offer_txt a{
+    text-decoration: none;
+    color: #0077ED;
+
+}
+.banner1{
+    width: 100%;
+    height: 510px;
+    background-color: #000000;
+    color: #fff;
+    /* border: 2px solid red; */
+}
+.b1_img{
+    width: 80%;
+    height:650px;
+    background-image: url("./img/welcome_hero_endframe__c61x1mv7kgqe_large_2x.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    /* margin-top: 100px; */ 
+}
+.b2_txt{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.banner1 h1{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 30px;
+    /* background-color: beige; */
+}
+.banner1 h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 210px;
+}
+.banner1 p{
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+}
+.btn{
+    /* background-color: #07f863; */
+    text-align: center;
+}
+.b1_btn{
+    background-color: #0077ED;
+    padding: 11px 21px 11px 21px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #ffff;
+    cursor: pointer;
+    margin: 5px;
+}
+.b1_btn:hover{
+    background-color: #037ef8;
+}
+#buy_btn{
+    background-color: transparent;
+    border: 1px solid #0077ED;
+    color: #0077ED;
+    transition: all .2s;
+}
+#buy_btn:hover{
+    background-color: #0077ED;
+    color: #fff;
+    /* border: 1px solid #ffff; */
+}
+
+.banner2{
+    width: 100%;
+    height:fit-content;
+    /* background-color: #F5F5F7; */
+    margin-bottom: 18px;
+    /* border: 1px solid black; */
+}
+.b2_img{
+    width: 100%;
+    /* height: inherit; */
+    background-image: url(./img/hero_macmini_announce__blbzy4bm2y3m_medium_2x\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 18px;
+    /* display: none; */
+}
+
+.b2_txt{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.b2_txt h1{
+    text-align: center;
+    font-size: 45px;
+    /* padding-top:25px ; */
+}
+.b2_txt p{
+    text-align: center;
+    font-size: 28px;
+}
+.b2_txt h2{
+    font-size: 30px;
+    margin-top: 260px;
+}
+
+.banner3{
+    width: 100%;
+    /* height: fit-content; */
+    /* background-color: red; */
+    margin-bottom: 18px;
+    /* border: 1px solid black; */
+}
+.b3_img{
+    width: 100%;
+    /* height: inherit; */
+    background-image: url(./img/banner3.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: #037ef8; */
+}
+.b3_txt h1{
+    text-align: center;
+    font-size: 45px;
+    /* padding-top:25px ; */
+}
+.b3_txt h2{
+    text-align: center;
+    font-size: 28px;
+}
+.b3_txt3{
+    text-align:center;
+    margin-top: 335px;
+    padding-bottom: 10px;
+}
+.banner4{
+    width: 100%;
+    height: fit-content;
+    /* background-color: #037ef8; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.b4_img1{
+    width: 613px;
+    height: 580px;
+    background-image: url(./img/promo_iphone16pro_avail__e44nsnw4hii6_medium_2x.jpg);
+    /* background-color: red;  */
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 30px;
+    
+}
+.b4_img2{
+    width: 613px;
+    height: 580px;
+    background-image: url(./img/promo_iphone16_avail__cl72dn7xdfv6_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgb(214, 141, 141);  */
+}
+.b4_txt{
+    margin-top: 400px; ;
+}
+
+.banner4 h1{
+    font-size:45px ;
+}
+.banner4 p{
+    font-size: 20px;
+}
+.b4_txt2{
+    margin-top: 40px;
+}
+.b4_img3{
+    width: 613px;
+    height: 580px;
+    background-image: url(./img/promo_apple_watch_series_10_avail_lte__c70y29goir42_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    color: #000000;
+}
+.b4_img4{
+    width: 613px;
+    height: 580px;
+    background-image: url(./img/promo_ai__couihqxznyvm_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+    color: #000000;
+}
+.b4_img5{
+    width: 613px;
+    height: 580px;
+    background-image: url(./img/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+    color: #000000;
+}
+.b4_img6{
+    width: 613px;
+    height: 580px;
+    background-image: url(./img/promo_apple_card__5cm7draujpey_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+    color: #000000;
+}
+.banner5{
+    width: 100%;
+    /* height: 590px; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:18px 0px 18px 0px;
+}
+.swiper {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+}
+
+.swiper-slide {
+    
+    text-align: center;
+    font-size: 18px;
+    /* background: #15d63f; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+/* fotter */
+
+footer {
+    background-color: #f2f2f2;
+    /* background-color: red; */
+    padding: 40px 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-sections {
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.footer-column {
+    /* background-color: green; */
+    
+    flex: 0;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-column ul {
+    /* background-color: red; */
+    list-style: none;
+    /* text-align: center; */
+    padding: 0;
+}
+
+.footer-column ul li {
+    /* background-color: green; */
+    margin-bottom: 5px;
+    text-align: start;
+    font-size: 15px;
+    
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+.footer-column ul li a:hover {
+    color: #007aff;
+}
+
+.footer-social {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #007aff;
+}
+
+.footer-legal {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-legal ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-legal ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+.footer-legal ul li a:hover {
+    color: #007aff;
+}
+
+.back-to-top {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    color: #007aff;
+    font-weight: bold;
+}
+
+.back-to-top a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
